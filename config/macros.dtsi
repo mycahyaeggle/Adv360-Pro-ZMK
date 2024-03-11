@@ -2,13 +2,13 @@ macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp V>;
+bindings = <&kp K_PASTE>;
 };
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp C>;
+bindings = <&kp K_COPY>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
